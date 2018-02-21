@@ -1,0 +1,56 @@
+
+
+/* Tabs at Home Page */
+ .Header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ .Header li {
+    float: left;
+}
+
+.Header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: courier;
+}
+
+ .Header li a:hover:not(.active) {
+    background-color: #white; 
+}
+
+.Header .active {
+    background-color: #333;
+}
+
+/* For the Full Page Image at Home Page */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../Images/Homepage/Patina-Dial.jpg");
+
+    /* Full height */
+    
+     /* width: relative; */
+     height: 93%;
+     
+    
+      
+    /*position: absolute; */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
