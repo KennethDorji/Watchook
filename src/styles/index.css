@@ -1,0 +1,12 @@
+.logo-name {
+  color: white;
+  font-size: 6rem;
+  font-style: italic;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}

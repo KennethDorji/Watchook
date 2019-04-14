@@ -1,0 +1,41 @@
+/* For the Full Page display on the body without any borders or margins on the webpage  */
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  font-family: "Satisfy", cursive;
+  background: black;
+}
+
+/* Navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  font-size: 1.5rem;
+}
+
+li a {
+  display: inline-block;
+  padding: 14px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+/* When the mouse hovers over the navbar li a the background color changes to the given color */
+li a:hover {
+  background-color: #daa520;
+}
+/* When the user clicks on the Tabs of the Navbar, the background color changes to the given color. To show mouse clicked effect. */
+li a:active {
+  background-color: #c0c0c0;
+}
