@@ -1,37 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <link rel="stylesheet" href="../styles/news.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Watchook</title>
+        <link
+          href="https://fonts.googleapis.com/css?family=Satisfy"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../styles/normalize.css" />
+        <link rel="stylesheet" href="../styles/main.css" />
+        <link rel="stylesheet" href="../styles/news.css" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+        />
+    
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Watchook</title>
   </head>
+ 
   <body>
     <!-- Navbar -->
-    <div class="Navbar">
-      <ul>
-        <li><a href="./index.html">WATCHOOK</a></li>
-        <li><a href="./src/pages/NewsTab.html">News</a></li>
-        <li><a href="#forums">Forums</a></li>
-        <li><a href="#contact">Resources</a></li>
-        <li><a href="#about">Shop</a></li>
-        <li style="float:right">
-          <a href="./src/pages/SignUp.html">Sign Up</a>
-        </li>
-        <li style="float:right">
-          <a href="./src/pages/SignIn.html">Sign In</a>
-        </li>
-      </ul>
-    </div>
+    <ul>
+      <li>
+        <a href="../../index.html">Home</a>
+      </li>
+      <li><a href="../pages/News.html" style="background-color: #daa520;">News</a></li>
+      <li><a href="#forums">Forums</a></li>
+      <li><a href="#contact">Resources</a></li>
+      <li><a href="#about">Shop</a></li>
+      <li style="float:right">
+        <a href="../pages/SignUp.html">Sign Up</a>
+      </li>
+      <li style="float:right">
+        <a href="../pages/SignIn.html">Sign In</a>
+      </li>
+    </ul>
+    
     <!-- News Material -->
     <div>
       <div class="Contents"> 
         <div class="NewsEntry">
-          <div class="NewsImage"><img src="../Images/NewsTab/hodinkee-logo.jpg"></div>
+          <div class="NewsImage">
+            <img src="../images/Hodinkee_Logo.png"> 
+            <br/> 
+            <a href="https://www.hodinkee.com/latest" target="_blank"><font color="white">Hodinkee.com/News</font></a>
+          </div>
           <div class="NewsDesc"> 
-              <p> HODINKEE is a robust online magazine featuring in-depth reviews, critiques, and reports on watches of a particularly high quality. </p></div>
-          <div class="NewsLink"><a href="https://www.hodinkee.com/latest">Hodinkee.com/News</a></div>
+              <p> <font color = "white"> <br/> HODINKEE has established itself as the preeminent resource for modern and vintage wristwatch enthusiasts. Founder and
+              Executive Editor Benjamin Clymer and his team of writers are known for their innate understanding of both historical
+              references and the most cutting-edge haute horlogerie, and more importantly, can explain them in a way that is both
+              entertaining and easy to understand.HODINKEE is a robust online magazine featuring in-depth reviews, critiques, and reports on watches of a particularly
+              high quality. </font></p>
+          </div>
+          <div><video width="320" height="240" autoplay>
+            <source src="../videos/Benjamin Clymer.mp4" type="video/mp4">
+            <!-- <source src="../videos/Benjamin Clymer.ogg" type="video/ogg"> -->
+            Your browser does not support the video tag.
+          </video></div>
+                        
+
+          <!-- <div class="NewsLink"><a href="https://www.hodinkee.com/latest" target="_blank">Hodinkee.com/News</a></div> -->
     </div>
   </body>
 </html>
