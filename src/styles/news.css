@@ -1,48 +1,11 @@
-/* o.  For the Full Page display on the body without any boarders or margins on the webpage  */
-    body, html {
-        height: 100%;
-        width: 100%;
-        margin: 0;
-        position: fixed;
-    }
-
-/* o.  Tabs at Home Page */
-     .Header ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #000;
-    }
-        
-     .Header li {
-        float: left;
-    }
-
-    .Header li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-family: courier;
-    }
-      /* When the mouse hovers over the header li a the background color changes to the given color */ 
-     .Header li a:hover {
-        background-color: #b2b2b2; 
-    }
-      /* When the user clicks on the Tabs of the Header, the background color changes to the given color. 
-         To show mouse clicked effect. */
-    .Header li a:active {
-        background-color: #333;
-    }
-    
 /* ******BEWARE!*******BELOW ARE "DISTINCT CODE" FOR JUST THIS PAGE******* */
-.NewsImage {float: left;}
-.NewsDesc {float: left;}
-.NewsLink {float: left;}
-
-
-
-
-
+.NewsImage {
+  float: left;
+}
+.NewsDesc {
+  /* width: 75vw;
+  align-content: right; */
+}
+.NewsLink {
+  float: left;
+}
