@@ -2,10 +2,36 @@
 .NewsImage {
   float: left;
 }
-.NewsDesc {
+/* .Hondinkee {
+  width: 75vw;
+  align-content: right;
+} */
+
+/* .HondinkeeImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+} */
+.HondinkeeDesc {
+  overflow: auto;
+  position: absolute;
+  right: 350px;
+  width: 800px;
+  border: 3px solid #73ad21;
+  padding: 10px;
   /* width: 75vw;
-  align-content: right; */
+  left: 600px; */
 }
 .NewsLink {
   float: left;
+}
+
+.WTimg {
+  width: 25%;
+  height: 30%;
+}
+
+.Font {
+  color: white;
 }
